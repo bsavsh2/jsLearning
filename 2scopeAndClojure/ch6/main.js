@@ -1,5 +1,7 @@
 /*
 Chapter 6: Limiting Scope Exposure
+Least exposure principle is best practice.
+
 Lest scope exposure is good design. Low coupling high cohesion.
 
 Immediately Invoked Function Expression
