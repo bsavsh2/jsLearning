@@ -36,7 +36,7 @@ the downsides of an anonymous function.
 (function doThisInstead(){
 // ..
 })();
-
+d
 /*
 the only reason we're using that first
 surrounding set of ( .. ) is just so the function keyword isn't in a
@@ -49,4 +49,12 @@ expression.
 ~function andThisOneToo(){
 // ..
 }();
+ */
+
+
+/*
+Why Function hoisting is good.
+Executable code first then functions. It's little thing but let you spot important parts easier.
+Variable hoisting is bad idea. Kyle have one exception but I also think it's not worth it so variable hoisting is
+ bad idea.
  */
